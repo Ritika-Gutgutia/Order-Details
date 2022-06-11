@@ -152,5 +152,8 @@ padding: 20px;
   .middle-container {
     text-align: left;
   }
+  .footer {
+    margin-bottom: 0px;
+  }
 
 }

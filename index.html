@@ -15,10 +15,29 @@
 
 <body>
 
+  <!-- Navbar-Section -->
+
+ <section id-"navbar">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+     <a class="navbar-brand" href="">X-Fashions</a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav ms-auto">
+    <li class="nav-item">
+    <a class="nav-link" href="#footer">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#order-summary-section">Order-Summary</a>
+    </li>
+  </ul>
+   </nav>
+ </section>
+
   <!-- Carousel-Section -->
 
-
-  <div class="row">
+  <div id="order-summary-section" class="row">
     <div class="col lg-6 sm-12">
       <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-interval="false" data-bs-ride="false">
         <div class="carousel-inner">
@@ -81,7 +100,7 @@
               </h4>
             </div>
             <div class="col">
-              <input class="check-box" type="number" name="" value="">
+              <input class="check-box" type="number" name="" value="" min="1">
             </div>
           </div>
         </div>
@@ -91,7 +110,7 @@
               <button class="btn btn-primary btn-sm" type="button" name="button">Proceed For Payment</button>
             </div>
             <div class="col">
-              <button class="btn btn-primary btn-sm" type="button" name="button">Order Cancellation</button>
+              <button class="btn btn-primary btn-sm right-btn" type="button" name="button">Order Cancellation</button>
             </div>
           </div>
         </div>
@@ -100,8 +119,48 @@
     </div>
   </div>
 
+  <!-- Product-Features-Section -->
 
-  <div class="footer">
+<section id="Product-Features">
+<div class="Features">
+  <h5 class="Product-Details">PRODUCT-DETAILS</h5>
+<p>
+  <span class="Details">Product Dimensions ‏ : ‎ </span>  35.3 x 25.4 x 2.5 cm; 150 Grams
+</p>
+<p>
+  <span class="Details">Date First Available ‏ :  ‎ </span>  12 January 2019
+</p>
+<p>
+  <span class="Details">Manufacturer ‏ :‎     </span>   Harpa Retail Private Limited
+</p>
+<p>
+  <span class="Details">ASIN ‏ : ‎ ‎ </span>  B07NCLXZ2P
+</p>
+<p>
+  <span class="Details">Item model number ‏ : ‎ </span>  GR5702
+</p>
+<p>
+  <span class="Details"></span>Department ‏ :  ‎ </span>  ‎ Women
+</p>
+<p>
+  <span class="Details"></span>Item Weight ‏ : ‎  ‎ </span> 150 g
+</p>
+<p>
+  <span class="Details"></span>Item Dimensions LxWxH ‏ :‎ </span>  ‎ 35.3 x 25.4 x 2.5 Centimeters
+</p>
+<p>
+  <span class="Details"></span>Generic Name ‏ :  ‎ </span> ‎ TOP
+</p>
+<p>
+  <span class="Details"></span>Customer Reviews   :  </span> <span class="icons"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star f-ic"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span> ‎
+</p>
+
+</div>
+</section>
+
+<!-- Footer-Section -->
+
+  <div id="footer">
     <p>
       <i class="fa-brands fa-twitter f-icons"></i>
       <i class="fa-brands fa-facebook f-icons"></i>
@@ -111,12 +170,9 @@
   <h5 class="footer-section">© Copyright X-Fashions</h5>
   </div>
 
-
-  <!-- Order-Summary-Section -->
-
-
-
   <script src="index.js" charset="utf-8"></script>
+
 </body>
 
 </html>
+

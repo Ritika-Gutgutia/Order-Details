@@ -171,13 +171,27 @@ body {
     font-size: 1.5rem;
   }
 
+ .img {
+   margin: auto;
+ }
+
   .carousel {
     text-align: center;
+    margin-bottom: 100px;
+    margin-top: 70px;
+  }
+
+  .carousel-control-next {
+    margin-right: auto;
+  }
+
+  .carousel-control-prev {
+    margin-left: auto;
   }
 
   .card {
-    text-align: center;
     margin: auto;
+    text-align: center;
   }
 
   .top-container {
@@ -198,7 +212,7 @@ body {
   }
 
   #Product-Features {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .Product-Details {
@@ -206,6 +220,6 @@ body {
   }
 
   .footer {
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 }
